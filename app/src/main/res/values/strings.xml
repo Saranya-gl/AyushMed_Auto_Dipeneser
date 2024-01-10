@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AyushMed</string>
+    <string name="med_prompt">Search by</string>
+
+    <string-array name="med_arrays">
+        <item>Medicine</item>
+        <item>Disease</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.exampledemo.parsaniahardik.generate_qr_code">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddDrugActivity" >
+        </activity>
+
+        <activity android:name=".AddMedicineActivity" >
+        </activity>
+
+        <activity android:name=".AdminActivity" >
+        </activity>
+
+        <activity android:name=".AdminActivity2" >
+        </activity>
+
+        <activity android:name=".AdminLoginActivity" >
+        </activity>
+
+        <activity android:name=".CartView" >
+        </activity>
+
+        <activity android:name=".ConfirmBuyActivity" >
+        </activity>
+
+        <activity android:name=".ConfirmViewActivity" >
+        </activity>
+
+        <activity android:name=".DoctorPrescription" >
+        </activity>
+
+        <activity android:name=".DrugViewActivity" >
+        </activity>
+
+        <activity android:name=".GenerateQR" >
+        </activity>
+
+        <activity android:name=".HomePage2" >
+        </activity>
+
+
+        <activity android:name=".LoginActivity" >
+        </activity>
+
+        <activity android:name=".MainActivity" >
+        </activity>
+
+        <activity android:name=".OnlineShopActivity" >
+        </activity>
+
+        <activity android:name=".PaymentVerify" >
+        </activity>
+
+        <activity android:name=".PrescriptionActivity" >
+        </activity>
+
+        <activity android:name=".RegisterActivity" >
+        </activity>
+
+        <activity android:name=".RegisterActivity2" >
+        </activity>
+
+        <activity android:name=".UserActivity" >
+        </activity>
+
+        <activity android:name=".UserActivity2" >
+        </activity>
+
+    </application>
+
+</manifest>
